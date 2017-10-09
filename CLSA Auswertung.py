@@ -15,7 +15,7 @@ alkan = input('Alkanraster? ')
  
 #Erstellen der Excel-Liste
  
-path_script = r"D:\Doktorarbeit\Salinispora\Auswertung"
+path_script = r"C:\Analysis"
 path_blank = os.path.join(path_script, medium+" Blank.xlsx")
 wb1 = op.load_workbook(filename=path_blank)
 ws1 = wb1.worksheets[1]
