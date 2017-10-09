@@ -13,7 +13,7 @@ datum2 = input('Datum CLSA? dd/mm/yyyy ')
 alkan = input('Alkanraster? ')
 
 #Erstellen der Excel-Liste
-path_script = r"D:\Doktorarbeit\Salinispora\Auswertung"
+path_script = r"C:\Analysis"
 wb = op.Workbook()
 wb.create_sheet(medium)
 Auswertung = wb[medium]
